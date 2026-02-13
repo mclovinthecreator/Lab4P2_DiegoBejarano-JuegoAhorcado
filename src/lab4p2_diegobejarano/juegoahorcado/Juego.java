@@ -13,5 +13,6 @@ Interfaz de juego ahorcado
 Trabaje Solo
 */
 public interface Juego {
-    
+    void inicializarpalabrasecreta();
+    void jugar();
 }

@@ -160,5 +160,6 @@ public abstract class JuegoBase implements Juego {
     public void reiniciar(){
         this.intentos = limiteintentos;
         this.letrasusadas.clear();
+        inicializarpalabrasecreta();
     }
 }
