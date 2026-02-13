@@ -8,6 +8,8 @@ package lab4p2_diegobejarano.juegoahorcado;
  *
  * @author diego
  */
-public class ExceptionLetraRepetida {
-    
+public class ExceptionLetraRepetida extends Exception{
+    public ExceptionLetraRepetida(String mensaje){
+        super(mensaje);
+    }
 }

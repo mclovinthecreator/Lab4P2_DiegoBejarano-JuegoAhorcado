@@ -8,6 +8,10 @@ package lab4p2_diegobejarano.juegoahorcado;
  *
  * @author diego
  */
+/*
+Interfaz de juego ahorcado
+Trabaje Solo
+*/
 public interface Juego {
     
 }
